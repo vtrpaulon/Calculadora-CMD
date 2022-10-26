@@ -77,12 +77,12 @@ class Program
         }
         static void Divisão()
         {
-            Console.WriteLine("Divisão de dois numeros: ");
+             Console.WriteLine("Divisão de dois numeros: ");
             Console.WriteLine("Digite o primeiro numero: ");
-            int a = int.Parse(Console.ReadLine());
+            float a = float.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
-            int b = int.Parse(Console.ReadLine());
-            int resultado = a / b;
+            float b = float.Parse(Console.ReadLine());
+            float resultado = a / b;
             Console.WriteLine($"O resultado é: {resultado}");
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
