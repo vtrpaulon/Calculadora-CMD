@@ -46,7 +46,6 @@ class Program
             }
             Console.Clear();
         }
-
         static void Soma()
         {
             Console.WriteLine("Soma de dois numeros: ");
@@ -95,9 +94,9 @@ class Program
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
-			  static void Potencia()
-				{
-       	 Console.WriteLine("Potecia de um numero: ");
+		static void Potencia()
+		{
+       	    Console.WriteLine("Potecia de um numero: ");
 	        Console.WriteLine("Digite a base: ");
 	        int baseNum = int.Parse(Console.ReadLine());
 	        Console.WriteLine("Digite o expoente: ");
@@ -107,7 +106,7 @@ class Program
 	        Console.WriteLine("Aperte ENTER para voltar para o menu");
 	        Console.ReadLine();
 	    }
-		    static void RaizQuadrada()
+		static void RaizQuadrada()
 	    {
 	        Console.WriteLine("Raiz  quadrada de um numero: ");
 	        Console.WriteLine("Digite o numero: ");
@@ -119,4 +118,3 @@ class Program
 	    }
 	}
 }
-
