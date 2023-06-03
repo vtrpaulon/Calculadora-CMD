@@ -2,7 +2,7 @@
 
 class Program
 {
-    enum Menu { Soma = 1, Subtração = 2, Multiplicação = 3, Divisao = 4, Potencia = 5, RaizQuadrada = 6, Sair = 7 }
+    enum Menu { Soma = 1, Subtracao = 2, Multiplicacao = 3, Divisao = 4, Potencia = 5, RaizQuadrada = 6, Sair = 7 }
 
     static void Main(String[] args)
     {
@@ -10,7 +10,7 @@ class Program
         while (!escolheuSair)
         {
             Console.WriteLine("Seja bem vindo a Calculadora CMD");
-            Console.WriteLine(" 1-Soma \n 2-Subtração \n 3-Multiplicação \n 4-Divisão \n 5-Potencia \n 6-RaizQuadrada \n 7-Sair");
+            Console.WriteLine(" 1-Soma \n 2-Subtracao \n 3-Multiplicacao \n 4-Divisao \n 5-Potencia \n 6-RaizQuadrada \n 7-Sair");
 
             Menu opcao = (Menu)int.Parse(Console.ReadLine());
 
@@ -20,16 +20,16 @@ class Program
                     Soma();
                     break;
 
-                case Menu.Subtração:
-                    Subtração();
+                case Menu.Subtracao:
+                    Subtracao();
                     break;
 
-                case Menu.Multiplicação:
-                    Multiplicação();
+                case Menu.Multiplicacao:
+                    Multiplicacao();
                     break;
 
                 case Menu.Divisao:
-                    Divisão();
+                    Divisao();
                     break;
 
                 case Menu.Potencia:
@@ -54,43 +54,43 @@ class Program
             Console.WriteLine("Digite o segundo numero: ");
             int b = int.Parse(Console.ReadLine());
             int resultado = a + b;
-            Console.WriteLine($"O resultado é: {resultado}");
+            Console.WriteLine($"O resultado e: {resultado}");
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
-        static void Subtração()
+        static void Subtracao()
         {
-            Console.WriteLine("Subtração de dois numeros: ");
+            Console.WriteLine("Subtracao de dois numeros: ");
             Console.WriteLine("Digite o primeiro numero: ");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
             int b = int.Parse(Console.ReadLine());
             int resultado = a - b;
-            Console.WriteLine($"O resultado é: {resultado}");
+            Console.WriteLine($"O resultado e: {resultado}");
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
-        static void Multiplicação()
+        static void Multiplicacao()
         {
-            Console.WriteLine("Multiplicação de dois numeros: ");
+            Console.WriteLine("Multiplicacao de dois numeros: ");
             Console.WriteLine("Digite o primeiro numero: ");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
             int b = int.Parse(Console.ReadLine());
             int resultado = a * b;
-            Console.WriteLine($"O resultado é: {resultado}");
+            Console.WriteLine($"O resultado e: {resultado}");
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
-        static void Divisão()
+        static void Divisao()
         {
-            Console.WriteLine("Divisão de dois numeros: ");
+            Console.WriteLine("Divisao de dois numeros: ");
             Console.WriteLine("Digite o primeiro numero: ");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo numero: ");
             int b = int.Parse(Console.ReadLine());
             float resultado = (float)a / (float)b;
-            Console.WriteLine($"O resultado é: {resultado}");
+            Console.WriteLine($"O resultado e: {resultado}");
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
@@ -102,7 +102,7 @@ class Program
 	        Console.WriteLine("Digite o expoente: ");
 	        int expoente = int.Parse(Console.ReadLine());
 	        int resultado = (int)Math.Pow(baseNum, expoente);
-	        Console.WriteLine($"O resultado é: {resultado}");
+	        Console.WriteLine($"O resultado e: {resultado}");
 	        Console.WriteLine("Aperte ENTER para voltar para o menu");
 	        Console.ReadLine();
 	    }
@@ -112,7 +112,7 @@ class Program
 	        Console.WriteLine("Digite o numero: ");
 	        int Num = int.Parse(Console.ReadLine());
 	        double resultado = (double)Math.Sqrt(Num);
-	        Console.WriteLine($"O resultado é: {resultado}");
+	        Console.WriteLine($"O resultado e: {resultado}");
 	        Console.WriteLine("Aperte ENTER para voltar para o menu");
 	        Console.ReadLine();
 	    }
