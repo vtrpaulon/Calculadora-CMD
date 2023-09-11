@@ -2,7 +2,7 @@
 
 class Program
 {
-    enum Menu { Soma = 1, Subtração = 2, Multiplicação = 3, Divisao = 4, Sair = 5 }
+    enum Menu { Soma = 1, Subtracao = 2, Multiplicacao = 3, Divisao = 4, Sair = 5 }
 
     static void Main(String[] args)
     {
@@ -20,16 +20,16 @@ class Program
                     Soma();
                     break;
 
-                case Menu.Subtração:
-                    Subtração();
+                case Menu.Subtracao:
+                    Subtracao();
                     break;
 
-                case Menu.Multiplicação:
-                    Multiplicação();
+                case Menu.Multiplicacao:
+                    Multiplicacao();
                     break;
 
                 case Menu.Divisao:
-                    Divisão();
+                    Divisao();
                     break;
 
                 case Menu.Sair:
@@ -51,7 +51,7 @@ class Program
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
-        static void Subtração()
+        static void Subtracao()
         {
             Console.WriteLine("Subtração de dois numeros: ");
             Console.WriteLine("Digite o primeiro numero: ");
@@ -63,7 +63,7 @@ class Program
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
-        static void Multiplicação()
+        static void Multiplicacao()
         {
             Console.WriteLine("Multiplicação de dois numeros: ");
             Console.WriteLine("Digite o primeiro numero: ");
@@ -75,7 +75,7 @@ class Program
             Console.WriteLine("Aperte ENTER para voltar para o menu");
             Console.ReadLine();
         }
-        static void Divisão()
+        static void Divisao()
         {
             Console.WriteLine("Divisão de dois numeros: ");
             Console.WriteLine("Digite o primeiro numero: ");
