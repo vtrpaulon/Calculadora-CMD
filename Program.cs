@@ -2,11 +2,7 @@
 
 class Program
 {
-<<<<<<< HEAD
-    enum Menu { Soma = 1, Subtracao = 2, Multiplicacao = 3, Divisao = 4, Sair = 5 }
-=======
     enum Menu { Soma = 1, Subtracao = 2, Multiplicacao = 3, Divisao = 4, Potencia = 5, RaizQuadrada = 6, Sair = 7 }
->>>>>>> 0714eaeeb2765daf3c4a25a0c69d16e0ee04b813
 
     static void Main(String[] args)
     {
@@ -34,17 +30,14 @@ class Program
 
                 case Menu.Divisao:
                     Divisao();
-<<<<<<< HEAD
-=======
                     break;
 
                 case Menu.Potencia:
                     Potencia();
                     break;
 
-								case Menu.RaizQuadrada:
+				case Menu.RaizQuadrada:
                     RaizQuadrada();
->>>>>>> 0714eaeeb2765daf3c4a25a0c69d16e0ee04b813
                     break;
 
                 case Menu.Sair:
